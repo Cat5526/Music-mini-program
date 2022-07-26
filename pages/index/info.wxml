@@ -1,0 +1,50 @@
+<scroll-view class="content-info" scroll-y>
+<swiper class="content-info-slide" indicator-color="rgba(255,255,255,.5)" indicator-active-color="#fff" indicator-dots circular autoplay>
+  <swiper-item>
+    <image src="../images/10.png" />
+  </swiper-item>
+  <swiper-item>
+    <image src="../images/01.jpg" />
+  </swiper-item>
+  <swiper-item>
+    <image src="../images/11.png" />
+  </swiper-item>
+</swiper>
+<view class="content-info-portal">
+  <view>
+    <image src="../images/04.jpg" />
+    <text>私人FM</text>
+  </view>
+    <view>
+    <image src="../images/05.jpg" />
+    <text>每日歌曲推荐</text>
+  </view>
+  <view>
+    <image src="../images/cover2.jpg" />
+    <text>云音乐新歌榜</text>
+  </view>
+</view>
+<view class="content-info-list">
+  <view class="list-title">推荐歌曲</view>
+  <view class="list-inner">
+    <view class="list-item">
+      <image src="../images/cover.jpg" /> <view>晴天</view>
+    </view>
+    <view class="list-item">
+      <image src="../images/cover1.jpg" /> <view>夜的第七章</view>
+    </view>
+    <view class="list-item">
+      <image src="../images/06.jpg" /> <view>七里香</view>
+    </view>
+    <view class="list-item">
+      <image src="../images/06.jpg" /> <view>以父之名</view>
+    </view>
+    <view class="list-item">
+      <image src="../images/cover1.jpg" /> <view>听妈妈的话</view>
+    </view>
+    <view class="list-item">
+      <image src="../images/cover2.jpg" /> <view>Mojito</view>
+    </view>
+  </view>
+</view>
+</scroll-view>
